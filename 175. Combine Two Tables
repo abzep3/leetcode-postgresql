@@ -37,3 +37,9 @@ ON Person.personId = Address.personId
 #Explicación
 Al estar unir los dos conjuntos toma la información de la tabla person y muestra como null los campos de address que no tienen información utilizando un left join
 
+#resultado
+| firstName | lastName | city          | state    |
+| --------- | -------- | ------------- | -------- |
+| Allen     | Wang     | null          | null     |
+| Bob       | Alice    | New York City | New York |
+
